@@ -1,0 +1,8 @@
+.resultBlock{
+    height:100vh;
+    background:#fafafa;
+    width:100vw;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}

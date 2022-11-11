@@ -1,0 +1,33 @@
+.currencyBlock{
+    margin-bottom: 20px;
+}
+.currencyItem .input{
+    height: 47px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid lightgray;
+    background: transparent;
+    border-radius: 0;
+    color: #777777;
+    font-size: 20px;
+    letter-spacing: 0;
+    display: flex;
+    align-items: center;
+}
+.currencyItem :global(.ant-select){
+    display: flex;
+    height: 47px;
+}
+.currencyItem :global(.ant-select-selector){
+    display: flex!important;
+    align-items: center!important;
+    height: 47px!important;
+    width: 100%;
+    border: none!important;
+    border-bottom: 1px solid lightgray!important;
+    background: transparent!important;
+    border-radius: 0;
+    color: #777777;
+    font-size: 20px;
+    letter-spacing: 0;
+}

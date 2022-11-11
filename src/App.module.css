@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+
+}
+/* баг antd библиотеки (не могут пофиксить с 2018 года)*/
+:global(.ant-row:not(.gutterfix)) {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+:global(.ant-col:not(.gutterfix):first-child) {
+  padding-left: 0 !important;
+}
+:global(.ant-col:not(.gutterfix):last-child) {
+  padding-right: 0 !important;
+}
+/* баг antd библиотеки (не могут пофиксить с 2018 года)*/
+.content{
+  padding: 0 9vw;
+}
+.CurrencyRow{
+  margin-top: 30vh;
+}
